@@ -1,11 +1,11 @@
 <?php
 require_once 'connectiondb.php';
 
-// Get all departments by name
-$query = 'SELECT * FROM department';
+// Get all contact by name
+$query = 'SELECT * FROM contact';
 $statement=$db->prepare($query);
 $statement->execute();
-$departments=$statement->fetchAll();
+$contact=$statement->fetchAll();
 $statement->closeCursor();
 ?>
 <!DOCTYPE html>
@@ -31,9 +31,9 @@ $statement->closeCursor();
 
       <label for="message">message</label>
       <input type="text" name="message">
-        <?php foreach($departments as $dept): ?>
-        <option value="<?php echo $dept['id']; ?>">
-            <?php echo $dept['name']; ?>
+        <?php foreach($contact): ?>
+        <option value="<?php echo $contact['id']; ?>">
+            <?php echo $contact['name']; ?>
         </option>
          <?php endforeach; ?>
       </select><br>
