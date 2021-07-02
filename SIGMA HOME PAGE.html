@@ -10,15 +10,31 @@
 	<form>
 <h2>Register Here</h2>
 <p>Please fill in the details to create an account with us.</p>
-<label for="email"><b>Enter Email</b></label>
-<input type="text" placeholder="Enter Email" name="email"></br></br>
-<label for="pwd"><b>Password</b></label>
-<input type="password" placeholder="Enter Password" name="pwd"></br></br>
-<label for="confirm"><b>Confirm Password</b></label>
-<input type="password" placeholder="Confirm Password" name="confirm"></br></br>
-<p>By creating an account you agree to our Terms and Privacy</p>
-<button type="submit" class="registerbtn"><strong>Register</strong></button>
-<p>Already have an account?</p><button type="submit" class="registerbtn"><strong>Sign In</strong></button>
-</form>
+
+<form name="frmContact" class="needs-validation " method="post" action="contact.php">
+    <p>
+      <label for="Name">Your Name </label>
+      <input type="text" class="form-control" name="txtName" id="txtName" placeholder="Name" value="" required>
+	  <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+    </p>
+    <p>
+      <label for="email">Your Email</label>
+      <input type="text"  class="form-control"  name="txtEmail" id="txtEmail" placeholder="Email" value="" required>
+    </p>
+    <p>
+      <label for="phone">Your Phone</label>
+      <input type="text"  class="form-control" name="txtPhone" id="txtPhone" placeholder="Phone" value="" required>
+    </p>
+    <p>
+      <label for="message">Message</label>
+      <textarea name="txtMessage" class="form-control"  id="txtMessage"  placeholder="Message" required></textarea>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+      <input type="submit" name="Submit" id="Submit" value="Click me to Contact"  class="btn btn-primary btn-lg btn-block">
+    </p>
+  </form>
 </body>
 </html>
