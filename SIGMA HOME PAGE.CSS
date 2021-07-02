@@ -1,0 +1,26 @@
+body
+{
+	background-image: url(FB_IMG_16252179130892212.jpg);
+	background-size: contain;
+}
+h1
+{
+	border:2px solid black;
+	border-bottom: 20px;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 70px;
+	background-color: black;
+	color: white;
+}
+form
+{
+	text-align: center;
+	font-size: 20px;
+	border: 2px solid black;
+	border-radius: 150px;
+	background-color: pink;
+	width: 750px;
+
+
+}
