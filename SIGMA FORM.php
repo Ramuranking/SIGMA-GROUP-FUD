@@ -19,21 +19,18 @@ $statement->closeCursor();
 <body>
     <h1>Add New Student</h1>
     <form action="add_student.php" method="POST">
-      <label for="firstname">First Name:</label>
-      <input type="text" name="firstname"><br>
-
-      <label for="surname">Last Name:</label>
-      <input type="text" name="surname"><br>
-
-       <label for="gender">Gender</label>
-       <input type="radio" name="gender" value="male">Male &nbsp;
-       <input type="radio" name="gender" value="female">Female<br>
+      
+      <label for="name">Name:</label>
+      <input type="text" name="name"><br>
     
-       <label for="dob">Birth date:</label>
-       <input type="date" name="dob"><br>
+       <label for="email">Email</label>
+       <input type="text" name="Email"><br>
 
-      <label for="dept">Department</label>
-      <select name="dept">
+      <label for="phone">Phone</label>
+      <input type="text" name="phone">
+
+      <label for="message">message</label>
+      <input type="text" name="message">
         <?php foreach($departments as $dept): ?>
         <option value="<?php echo $dept['id']; ?>">
             <?php echo $dept['name']; ?>
