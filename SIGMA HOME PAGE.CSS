@@ -24,3 +24,30 @@ form
 
 
 }
+
+
+
+
+	.bhours{text-align:center;
+		border:1px black solid;
+		margin-left:900px;
+		margin-top:150px;
+		background:rgba(140,210,200,190); 
+		opacity:0.9;  
+		border-radius:10px; 
+		border-top-right-radius:110px;
+		border-bottom-left-radius: 110px;
+		padding:-200px; 
+	}
+
+.bh{font-size:1.5em;  font-family: impact; 
+}
+
+.day{ font-size:12px; font-family:verdana; 
+color:maroon;}
+
+
+div.day~h5{font-size:.8em;
+ font-family:cambria;
+  color:black;  
+font-style:bold; }
