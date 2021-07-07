@@ -1,0 +1,103 @@
+
+body
+{
+  background-image: url(../images/sigma.jpg);
+  background-size:1400px;
+  background-repeat:no-repeat; 
+}
+h1
+{
+  border:2px solid black;
+  border-bottom: 20px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 70px;
+  background-color: black;
+  color: white; 
+  margin-top:-10px 
+}
+form
+{
+
+
+
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background:rgba(180,173,160,120);
+  width: 450px;
+  opacity:0.9;
+}
+
+
+
+
+input[type=text] 
+{width: 300px; height: 30px;
+        border:px solid blue;
+border-radius:10px;
+padding-left:40px;
+background:url('../images/user.png') no-repeat;
+background-color:lightblue;
+background-position:left;
+background-size:30px;
+} 
+
+input[type=email]
+{width: 300px; height: 30px;
+        border:px solid blue;
+border-radius:10px;
+padding-left:35px;
+background:url('../images/email.png') no-repeat;
+background-color:lightblue;
+background-position:left;
+background-size:30px;
+} 
+
+input[type=number]
+{width: 300px; height: 30px;
+        border:px solid blue;
+border-radius:10px;
+padding-left:35px;
+background:url('../images/number.png') no-repeat;
+background-color:lightblue;
+background-position:left;
+background-size:30px;
+} 
+
+input[type=submit]{ width: 100px; height:20px;
+        border-radius:10px;
+background:url('../images/submit.png') no-repeat;
+background-position:right;
+background-size:100px;
+text-align:right;
+padding:10px;
+}
+
+
+.req,.invalid-feedback{color: red;}
+  .bhours{text-align:center;
+    border:1px black solid;
+    margin-left:900px;
+    margin-top:-520px;
+    background:rgba(140,210,200,190); 
+    opacity:0.9;  
+    border-radius:10px; 
+    border-top-right-radius:100px;
+    border-bottom-left-radius: 100px;
+    padding:-200px; 
+
+  }
+
+.bh{font-size:1.5em;  font-family: impact; 
+}
+
+.day{ font-size:12px; font-family:verdana; 
+color:maroon;}
+
+
+div.day~h5{font-size:.8em;
+ font-family:cambria;
+  color:black;  
+font-style:bold; }

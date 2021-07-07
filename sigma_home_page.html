@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<title>homepage</title>
+
+    <link rel="stylesheet" href="style/homepage.css">
+</head>
+
+
+<body>
+	<h1>WELCOME TO SIGMA'S KITCHEN</h1>
+	<form>
+<h2>Register Here</h2>
+<div class="req">Please fill in the details to create an account with us.</div>
+
+<form name="frmContact" class="needs-validation " method="post" action="contact.php">
+    <p>
+      <label for="Name">Your Name </label>
+      <input type="text" class="form-control" name="txtName" id="txtName" placeholder="Name" value="" required>
+	  <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+    </p>
+    <p>
+      <label for="email">Your Email</label>
+      <input type="email"  class="form-control"  name="txtEmail" id="txtEmail" placeholder="Email" value="" required>
+    </p>
+    <p>
+      <label for="phone">Your Phone</label>
+      <input type="number"  class="form-control" name="txtPhone" id="txtPhone" placeholder="Phone" value="" required>
+    </p>
+    <p>
+      <label for="message">Message</label>
+      <textarea name="txtMessage" class="form-control"  id="txtMessage"  placeholder="Message" required></textarea>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+      <input type="submit" name="Submit" id="Submit" value=""  class="btn btn-primary btn-lg btn-block">
+    </p>
+  </form>
+	
+	<div class="bhours">
+<div class="bh"><h3>BUSSINESS HOURS</h3></div>
+<h4>WORKING DAYS</h4>
+<div class="day">FRIDAY THROUNGH MONDAY</div>
+<h5>7:00AM-6:00PM</h5>
+<h4>WEEKEND DAYS </h4>
+<div class="day">SATURDAY THROUNGH SUNDAY</div>
+<h5>9:00AM-4:00PM</h5>
+</div>
+	
+</body>
+</html>
