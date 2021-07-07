@@ -22,15 +22,12 @@ ul
     
     float: center;
     text-decoration: none;
-    
 }
 li
 {
     display: inline-block;
     padding:15px;
     margin-left: 100px;
-    
-    
 }
 a
 {
@@ -41,8 +38,4 @@ a
     text-decoration:none;
     padding:20px;
     border:1px;
-
-    
-   
-
 }
