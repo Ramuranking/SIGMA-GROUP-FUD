@@ -1,6 +1,6 @@
 body
 {
-    background-color: pink;
+    background-color: purple;
 }
 h1
 {
@@ -38,5 +38,5 @@ a
     color: #797148;
     text-decoration:none;
     padding:20px;
-    border:1px;
+    border:1px solid black;
 }
