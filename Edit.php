@@ -11,7 +11,7 @@
     $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
     $txtEmail = filter_input(INPUT_GET, 'txtEmail', FILTER_VALIDATE_INT);
     $txtPhone = filter_input(INPUT_GET, 'txtPhone', FILTER_VALIDATE_INT);
-    if($id == NULL || $id == false || $dept == NULL || $dept == false) {
+    if($id == NULL || $id == false || $txtEmail == NULL || $txtphone == false) {
         echo 'Invalid txtEmail or id or txtPhone';
         exit();
     }
