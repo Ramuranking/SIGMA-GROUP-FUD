@@ -50,6 +50,6 @@ $statement->closeCursor();
     </tr>
     <?php endforeach; ?>
   </table>
-  <p><a href="SIGMA FORM.php">Order for new stuff</a></p>
+  <p><a href="SIGMA FORM.php">Order for new food variety</a></p>
 </body>
 </html>
