@@ -1,0 +1,23 @@
+body
+{
+    background-color: blue;
+}
+h1
+{
+    color: blue;
+    border: 2px solid black;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 70px;
+    background-color: red
+}
+a
+{
+    text-align:center;
+    text-decoration-color:rgb(22, 22, 34);
+    float:auto;
+    color: #797148;
+    text-decoration:none;
+    padding:20px;
+    border:1px;
+}
