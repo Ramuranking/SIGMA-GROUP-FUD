@@ -1,6 +1,6 @@
 body
 {
-    background-color: blue;
+    background-color: url(img-213233321.jpg);
 }
 h1
 {
@@ -9,7 +9,6 @@ h1
     border-radius: 20px 0px 20px 0px;
     text-align: center;
     font-size: 70px;
-    background-color: green;
 }
 p
 {
