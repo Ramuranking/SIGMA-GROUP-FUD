@@ -1,0 +1,25 @@
+body
+{
+    background-color: blue;
+}
+h1
+{
+    color: red;
+    border: 2px solid black;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 70px;
+    background-color: green;
+}
+p
+{
+	color: red;
+	border:1px solid black;
+	border-radius: 20px;
+}
+form
+{
+	border:1px solid black;
+	border-radius: 40px 0px 40px 0px;
+	margin: 20px;
+}
