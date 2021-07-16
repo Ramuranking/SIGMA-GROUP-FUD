@@ -1,0 +1,119 @@
+form
+{
+
+  font-size: 20px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background:rgba(180,173,160,120);
+ margin: 1% auto;
+ margin-left: auto;
+ margin-right: auto;
+ width: 400px;
+ padding: 20px;
+ text-align: center;
+}
+
+.form{
+	background-color:#12232E ;
+	padding:20px;
+	opacity:0.95;
+	border: 1px;
+}
+
+
+
+
+
+
+
+.sample{
+	background-color:#12232E ;
+	padding: 20px;
+	opacity:0.95;
+	border-radius:90px solid red;
+	border: 1px;
+	border-bottom:1px solid green;
+	font-size:1em; 
+	font-family: sans-serif;
+	color:black;
+} 
+
+
+
+
+th{
+font: 1em;
+font-family: sans-serif;
+color:pink;
+background-color:green;
+}
+
+
+
+
+
+
+
+.tdata{
+font-family: sans-serif;
+}
+
+h3{
+	text-align:center;
+	font-size: 2.5em;
+	font-family:fantasy;
+	font-style: bold;
+	border: 1px solid red;
+	margin: 1% auto;
+ margin-left: auto;
+ margin-right: auto;
+ width: 400px;
+ padding: 5px;
+background: black;
+}
+
+
+h2{
+	text-align:center;
+	color:white;
+	background:black;
+	width:200px;
+	height:40px; 
+	border: 1px;
+border-radius:30px solid red;
+margin: 1% auto;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 20px;
+
+}
+
+input[type=text] 
+{width: 400px; height: 30px;
+        border:px solid blue;
+border-radius:10px;
+background-color:lightblue;
+background-position:left;
+background-size:30px;
+} 
+input[type=text]::placeholder {text-align:center;}
+input[type=submit] {
+
+	background-color:#4CAF50; 
+	border-radius: 10px;
+}
+
+
+.remove{
+
+
+	background-color:#F44336; 
+	border-radius: 7px;
+}
+
+
+a{ text-decoration: none; }
+a:visited{
+	color: red;
+
+}
