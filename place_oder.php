@@ -26,11 +26,6 @@
 	<td > <img src="images/fried-rice.jpg" />
 <p> Fried Rice</p>
 <div>N900</div>
-	
-	</td>
-<td>  <img src="images/pineapple.jpg" />
-	<p>Pineapple Rice</p>
-<div>N1050</div>
 </td>
 
 	<td > <img src="images/Fried chicken.jpg"/>
@@ -42,15 +37,22 @@
 <p>  Beef Fried</p>
 <div>N1100</div>
 </td>
+	<td>  <img src="images/moroccan-couscous.jpg" />
+<p> Couscous</p>
+<div>N1050</div>
+</td>
+<td > <img src="images/yam.jpg"> <p> Yam Pottage</p>
+
+<div>N650</div>
+
+	</td>
 
 
+	<th>SNACKS AVAILABLE</th>
 
-
-
-	<td > <img src="images/burger.jpg"> <p> Burger</p>
-
+	<td > <img src="images/burger.jpg"> 
+<p> Burger</p>
 <div>N550</div>
-
 	</td>
 
 	<td > <img src="images/fried-rice.jpg" />
@@ -58,14 +60,10 @@
 <div>N850</div>
 	</td>
 	
-
-
-
-<td>  <img src="images/moroccan-couscous.jpg" />
-	<p> Couscous</p>
+<td>  <img src="images/pineapple.jpg" />
+	<p>Pineapple Rice</p>
 <div>N1050</div>
 </td>
-
 	<td > <img src="images/burger1.jpeg"/>
 	<p> Burger</p>
 <div>N500</div>
@@ -76,25 +74,11 @@
 <div>N1000</div>
 </td>
 
-
-</tr>
-
-	<tr>
-
-	<td > <img src="images/yam.jpg"> <p> Yam Pottage</p>
-
-<div>N650</div>
-
-	</td>
-
 	<td > <img src="images/BurgerKing.jpg" />
 <p> Burger King</p>
 <div>N700</div>
 	</td>
 	
-
-
-
 <td>  <img src="images/shrimp-boil.jpg" />
 	<p> Shrimp Boil</p>
 <div>N1250</div>
@@ -123,8 +107,6 @@
 	</td>
 	
 
-
-
 <td>  <img src="images/African-Fish-Dishes.jpg" />
 	<p> Fish Dishe</p>
 <div>N750</div>
@@ -139,6 +121,7 @@
 <p> Cake</p>
 <div>N650</div>
 </td>
+		<th>
 
 
 </tr>
