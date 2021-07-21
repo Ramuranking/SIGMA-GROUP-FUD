@@ -18,21 +18,16 @@
 	<th class="thead" colspan="15">Food Available</th>
 </tr>
 <tr>
-
+	<th>FOODS AVAILABLE</th>
 	<td > <img src="images/Pasta.jpg"> <p> Pasta Macroni</p>
-
 <div>N750</div>
-
 	</td>
 
 	<td > <img src="images/fried-rice.jpg" />
 <p> Fried Rice</p>
 <div>N900</div>
-	</td>
 	
-
-
-
+	</td>
 <td>  <img src="images/pineapple.jpg" />
 	<p>Pineapple Rice</p>
 <div>N1050</div>
