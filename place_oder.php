@@ -119,11 +119,34 @@
 
 	<td > <img src="images/cake.jpg"/>
 <p> Cake</p>
-<div>N650</div>
+<div>N6</div>
 </td>
-		<th>
-
-
+	<th>FRUITS AVAILABLE</th>
+	<td > 
+<img src="images/apple.jpg"> 
+<p>Apple</p>
+<div>N300</div>
+</td>
+	<td > 
+<img src="images/pineapple.jpg"> 
+<p>pineapple</p>
+<div>N600</div>
+</td>
+	<td > 
+<img src="images/guava.jpg"> 
+<p>Guava</p>
+<div>N150</div>
+</td>
+		<td > 
+<img src="images/Grape.jpg"> 
+<p>grape</p>
+<div>N250</div>
+</td>
+	<td > 
+<img src="images/mango.jpg"> 
+<p>mango</p>
+<div>N200</div>
+</td>
 </tr>
 
 </table>
